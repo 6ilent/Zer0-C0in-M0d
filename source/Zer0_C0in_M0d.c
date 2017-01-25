@@ -104,12 +104,12 @@ int about(int argc, char **argv)
 
 	consoleInit(GFX_BOTTOM, NULL);
 
-	printf("\x1b[12;15HDeveloper:");
-	printf("\x1b[13;15H@Zer0Entry");
-	printf("\x1b[15;15HBETA Tester's:");
-	printf("\x1b[16;15H@Eefeeboy");
+	printf("\x1b[12;12HDeveloper:");
+	printf("\x1b[13;12H@Zer0Entry");
+	printf("\x1b[15;12HBETA Tester's:");
+	printf("\x1b[16;12H@Eefeeboy");
 
-	printf("\x1b[20;15HPress B to go back.");
+	printf("\x1b[20;12HPress B to go back.");
 
 	while (aptMainLoop())
 	{
@@ -137,7 +137,7 @@ int exit_hb(int argc, char **argv)
 
 	consoleInit(GFX_BOTTOM, NULL);
 
-	printf("\x1b[12;10HPress Start to go to the HB menu.");
+	printf("\x1b[12;5HPress Start to go to the HB menu.");
 	printf("\x1b[13;15HPress B to go back.");
 
 	while (aptMainLoop())
